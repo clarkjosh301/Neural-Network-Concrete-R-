@@ -1,3 +1,4 @@
+#data from https://www.kaggle.com/elikplim/concrete-compressive-strength-data-set
 concrete_data <- read.csv(file.choose(), header=TRUE, stringsAsFactors = FALSE)
 str(concrete_data)
 norm_dist <- function(x) { 
