@@ -32,6 +32,6 @@ model2 <- neuralnet(Concrete.compressive.strength.MPa..megapascals.. ~ Cement..c
 model2_results <- compute(model2, concrete_data_test[1:8])
 strength_prediction2 <- model2_results$net.result 
 cor(strength_prediction2, concrete_data_test$Concrete.compressive.strength.MPa..megapascals..)
-#cor=.81 
+#strength_prediction=.81 
 
 
